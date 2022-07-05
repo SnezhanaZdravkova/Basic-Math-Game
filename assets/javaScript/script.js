@@ -1,11 +1,7 @@
 console.clear();
-
 // The game variables
 const inputEl = document.querySelector("#input-el");
 const checkBtn = document.querySelector("#check-btn");
-
-
-
 // The modal variables
 // modal, the answer, x sign
 const modal = document.querySelector("#myModal");
@@ -24,8 +20,7 @@ checkBtn.addEventListener("click", function(){
        }else{
         modal.style.background = "#e74c3c"
        theAnswer.textContent = answerOptions[1];
-    }
-    
+    }    
 });
 closeBtn.addEventListener("click", function(){
     modal.style.display = "none";
